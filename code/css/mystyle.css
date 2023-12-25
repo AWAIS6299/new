@@ -1,0 +1,299 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+  }
+  
+  header {
+    background-color: #001F3F; /* Dark blue header background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    /* You can add navigation styles here */
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  footer {
+    background-color: #001F3F; /* Dark blue footer background */
+    color: #fff; /* White text color */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Styles for the Homepage */
+  #featured-courses {
+    background-color: #fff; /* White background for featured courses */
+    padding: 20px;
+  }
+  
+  /* Styles for the About Us page */
+  #mission-values {
+    background-color: #f9f9f9; /* Light gray background for mission and values */
+    padding: 20px;
+  }
+  
+  /* Styles for the Courses page */
+  #course-list {
+    background-color: #fff; /* White background for course list */
+    padding: 20px;
+  }
+  
+  /* Styles for the Blog page */
+  #blog-posts {
+    background-color: #f9f9f9; /* Light gray background for blog posts */
+    padding: 20px;
+  }
+  
+  /* Styles for the Contact Us page */
+  #contact-form {
+    background-color: #fff; /* White background for contact form */
+    padding: 20px;
+  }
+  /* Add this to the existing styles.css file */
+
+/* Navigation bar styles */
+nav {
+    background-color: #333; /* Dark background color for the navigation bar */
+  }
+  
+  nav a {
+    color: #fff; /* White text color for navigation links */
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+  }
+  
+  nav a:hover {
+    background-color: #555; /* Darker background color on hover */
+  }
+  /* Add this to the existing mystyle.css file */
+
+/* Logo styles */
+.logo {
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    left: 20px; /* Adjust the left position as needed */
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px; /* Adjust the font size as needed */
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 10px; /* Add some spacing between the "N" and the text */
+  }
+  
+  /* Style for the "N" in "New City" */
+  .logo::before {
+    content: 'New';
+    font-size: 50px; /* Adjust the font size of the "N" as needed */
+    color: #007BFF; /* Set the color for the "N" */
+    margin-right: 5px; /* Add some spacing between the "N" and the text */
+  }
+  /* Add this to the existing mystyle.css file */
+
+/* Logo styles */
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 10px;
+  }
+  
+  /* Style for the "N" in "New City" */
+  .logo::before {
+    content: 'Ncc';
+    font-size: 50px;
+    color: #007BFF;
+    margin-right: 5px;
+  }
+  
+  /* Header styles */
+  header {
+    position: relative; /* Add this to create a positioning context for absolute positioning */
+  }
+  
+  h1 {
+    margin-top: 50px; /* Add some top margin to create space between h1 and logo */
+  }
+  
+  /* Navigation styles */
+  nav {
+    margin-top: 20px; /* Add some top margin to create space between logo and navigation */
+  }
+  
+  /* Add this to your existing mystyle.css file or create a new CSS file */
+
+#course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .course {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .course:hover {
+    transform: scale(1.05);
+  }
+  
+  .course img {
+    width: 100%; /* Make the image fill the entire width of its container */
+    height: 200px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  }
+  
+  .course-info {
+    padding: 20px;
+  }
+  
+  .course-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .course-description {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+/* Add this to your existing mystyle.css file or create a new CSS file */
+
+#featured-post,
+#blog-posts {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.blog-post {
+  width: 300px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.blog-post:hover {
+  transform: scale(1.05);
+}
+
+.blog-post img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.post-info {
+  padding: 20px;
+}
+
+.post-meta {
+  font-size: 0.8rem;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.post-excerpt {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: block;
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  #contact-form p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }  
+  
